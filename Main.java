@@ -8,10 +8,10 @@ public class Main {
 
         try {
 
-           for (int i=1; i<=100;i++)
+           for (int i=1; i<=50;i++)
                 System.out.println("raiz("+i+"):" + raizQuadrada(i) + ";iterações="+count);
 
-            for (double i=0.1; i<=0.9;i=i+0.1)
+            for (double i=0.1; i<=0.5;i=i+0.1)
                 System.out.println("raiz("+i+"):" + raizQuadrada(i) + ";iterações="+count);
 
         } catch (Exception e) {
