@@ -100,7 +100,7 @@ public class Main {
                 achou = true;
 
             //apenas para preservar de um possível loop
-            if (count==1000)
+            if (count==1200)
                 achou = true;
 
         }
